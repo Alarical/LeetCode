@@ -2152,6 +2152,80 @@ class Solution:
 A = [[1,0,0,0],[0,0,0,0],[0,0,2,-1]]   
 print (Solution().uniquePathsIII(A))
         
+
+#5. Longest Palindromic Substring
+class Solution:
+    def longestPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        s = 'cbbd'
+        begin = 0 
+        res = 0  # longest length
+        for i in range(len(s)):
+            gap = 0
+            while i - gap >= 0 and i + gap < len(s):
+                if s[i - gap] == s[i + gap]:
+                    if gap*2+1 > res:
+                        res = gap*2+1
+                        begin = i-gap
+                    gap += 1
+                else:
+                    break
+            gap = 1
+            while i-gap+1 >=0 and i+gap < len(s):
+                if s[i - gap+1] == s[i + gap]:
+                    if gap*2 > res:
+                        res = gap*2
+                        begin = i-gap+1
+                    gap += 1
+                else:
+                    break
+        return s[begin : begin+res]
+        
+    def longestPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                    
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
        
 
                         
