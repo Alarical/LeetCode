@@ -2026,68 +2026,137 @@ class Solution:
                 row += 1
         return False
             
-# 279. Perfect Squares            
+# 101. Symmetric Tree            
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 class Solution:
-    def numSquares1(self, n: int) -> int:
-        # TLE
-        import math
-        n = 12
-        dp = [ float('inf') for _ in range(n+1)]
-        m = int(math.sqrt(n))
-        for i in range(1,m+1):
-            dp[i*i] = 1
-        for i in range(1,m+1):
-            for j in range(i*i , n+1):
-                dp[j] = min(dp[j] , dp[j-i*i]+1)
-        return dp[-1]
-    
-    def numSquares2(self, n: int) -> int: 
-        import math
-        squ_list = [ i*i for i in range(1,int(math.sqrt(n))+1)]
-        count = 0
-        cur_visited = [n]
-        while cur_visited:
-            count += 1
-            next_visited = set()
-            for cur in cur_visited:
-                for num in squ_list:
-                    if cur == num:
-                        return count
-                    if cur < num:
-                        break
-                    next_visited.add(cur - num)
-            cur_visited = next_visited
-        return count
-
-  
-    def numSquares3(self, n: int) -> int:
-        queue = [[n,0]]
-        visited = [False for _ in range(n+1)]
-        visited[n] = True
+    def isSymmetric(self, root: TreeNode) -> bool:
+        def dfs(left , right):
+            if not left and not right:
+                return True
+            if not left or not right:
+                return False
+            if left.val != right.val:
+                return False
+            return dfs(left.left , right.right) or dfs(left.right, right.left)
         
+        if root == None:
+            return True
+        return dfs(root.left ,root.right)
+        
+       
+    def isSymmetric(self, root: TreeNode) -> bool:
+        queue = [root , root]
         while any(queue):
-            num,step = queue.pop(0)
-            i = 1
-            temp_num = num-i**2
-            while temp_num>=0:
-                if temp_num == 0:
-                    return step+1
-                if not visited[temp_num]:
-                    queue.append([temp_num , step+1])
-                    visited[temp_num] = True
-                i+=1
-                temp_num = num-i**2
+            t1 = queue.pop()
+            t2 = queue.pop()
+            if t1 == None and t2 == None:
+                continue
+            if t1 == None or t2 == None:
+                return False
+            if t1.val != t2.val:
+                return False
+            queue.append(t1.left)
+            queue.append(t2.right)
+            queue.append(t1.right)
+            queue.append(t2.left)
+        return True
+            
+#62. Unique Paths            
+class Solution:
+    def uniquePaths(self, m, n):
+        m,n = 7 ,3
+        dp = [[1]*n for _ in range(m)]
+        for i in range(1,m):
+            for j in range(1,n):
+                dp[i][j] = dp[i-1][j] + dp[i][j-1]
+        return dp[m-1][n-1]
+                
+#63. Unique Paths II
+class Solution:
+    def uniquePathsWithObstacles(self, obstacleGrid):
+        """
+        :type obstacleGrid: List[List[int]]
+        :rtype: int
+        """
+        m = len(obstacleGrid)
+        n = len(obstacleGrid[0])
+
+        if obstacleGrid[0][0] == 1:
+            return 0
+
+        dp = [ [0] * n for i in range(m) ]
+
+        for i in range(m):
+            for j in range(n):
+                if obstacleGrid[i][j] == 1:
+                    dp[i][j] = -1
+
+        dp[0][0] = 1
+        for i in range(1,m):
+            if dp[i][0] != -1:
+                dp[i][0] = dp[i-1][0]
+            else:
+                break
+        for i in range(1,n):
+            if dp[0][i] != -1:
+                dp[0][i] = dp[0][i-1] 
+            else:
+                break
+
+        for i in range(1,m):
+            for j in range(1,n):
+                if dp[i][j] != -1:
+                    dp[i][j] = (dp[i-1][j] if dp[i-1][j] != -1 else 0) + (dp[i][j-1] if dp[i][j-1] != -1 else 0)
+
+        return dp[m-1][n-1] if dp[m-1][n-1] != -1 else 0
+                    
+#980. Unique Paths III
+class Solution:
+    def uniquePathsIII(self, grid: List[List[int]]) -> int:
+        def dfs(x, y, zerocount):
+            direction = [(-1,0),(1,0),(0,1),(0,-1)]
+            for i,j in direction:
+                nx ,ny = x+i , y+j
+                if 0 <= nx < m and 0 <=ny < n:
+                    if grid[nx][ny] == 2:
+                        if zerocount == 0:
+                            self.res += 1
+                            return
+                        else:
+                            continue
+                    if grid[nx][ny] == 0: # backtracking
+                        grid[nx][ny] = 1
+                        dfs(nx, ny , zerocount-1)
+                        grid[nx][ny] = 0
+
+       
+        m , n  = len(grid),len(grid[0])
+        zerocount = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == 1:
+                    sx , sy = i,j
+                elif grid[i][j] == 2:
+                    end = (i,j)
+                elif grid[i][j] == 0:
+                    zerocount += 1
+        self.res = 0       
+        dfs(sx , sy , zerocount)
+        return self.res
+    
+A = [[1,0,0,0],[0,0,0,0],[0,0,2,-1]]   
+print (Solution().uniquePathsIII(A))
         
-            
-Solution().numSquares(n = 12)
-            
+       
 
-
-
-
-
-
-
+                        
+                        
+    
 
 
 

@@ -8,6 +8,7 @@ Created on Tue Apr  9 21:04:34 2019
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
+        # Recursive
         def dfs(left , right):
             if not left and not right:
                 return True
@@ -23,6 +24,7 @@ class Solution:
         
        
     def isSymmetric(self, root: TreeNode) -> bool:
+        # Iterative
         queue = [root , root]
         while any(queue):
             t1 = queue.pop()
