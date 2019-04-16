@@ -2189,22 +2189,144 @@ class Solution:
         :type s: str
         :rtype: str
         """
+        dp = [[0] * len(s) for _ in range(len(s))]
+        begin = 0
+        res = 0
+        for i in range(len(s)):
+            for j in range(i+1):
+                dp[j][i] = s[j] == s[i] and (i-j <= 2 or dp[j+1][i-1] == 1)
+                if dp[j][i]:
+                    if i-j+1 > res:
+                        res = i-j+1
+                        begin = j
+        return s[begin:begin+res]
+
                 
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                    
-                
+#300. Longest Increasing Subsequence                
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        #对于每一个nums中元素，都有是LIS中元素和不是两种选择，
+        #暴力递归所有的可能 time O(2^n) space O(n^n)
+        #会超时
+        import sys
+        def recursion(nums , last_value , ind):
+            taken , nottaken = 0,0
+            if ind == len(nums):
+                return 0
+            if nums[ind] > last_value:
+                taken = 1+recursion(nums,nums[ind],ind+1)
+            nottaken = recursion(nums,last_value,ind+1)
+            return max(taken,nottaken)
+              
+        nums = [10, 9, 2, 5, 3, 7, 101, 18]
+        return recursion(nums , -sys.maxsize - 1 , 0)
         
         
+    #dp
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        res = 0
+        dp = [1 for _ in range(len(nums))]
+        for i in range(len(nums)):
+            temp = 0
+            for j in range(i):
+                if nums[j] < nums[i]:
+                    temp = max(temp , dp[j])
+            dp[i] = temp+1
+            res = max(res,dp[i])
+        return res
+    #dp with binarysearch
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        def binarysearch( s , num):
+            l , r = 0 , len(s)-1
+            while l <= r:
+                m = int((l+r)/2)
+                if s[m] == num:
+                    return m
+                elif s[m] > num:
+                    r = m-1
+                else:
+                    l = m+1
+            return l
+            
+        if len(nums) == 0 :
+            return 0
+        solution = [nums[0]]
         
+        for i in range(len(nums)):
+            if nums[i] > solution[-1]:
+                solution.append(nums[i])
+            else:
+                index = binarysearch(solution , nums[i])
+                solution[index] = nums[i]
+        return len(solution)
+                
+#53. Maximum Subarray                
+class Solution:
+    def maxSubArray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        import sys
+        if len(nums) == 0:
+            return 0
+        cursum = 0
+        res = -sys.maxsize-1
+        for num in nums:
+            cursum = max(cursum+num ,num)    
+            res = max(res,cursum)
+        return res
+                
+#191. Number of 1 Bits                
+class Solution(object):
+    def hammingWeight(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        count = 0
+        while n:
+            count += n&1
+            n >>= 1
+        return count
+        
+#338. Counting Bits        
+class Solution(object):
+    
+    # 164 ms 17.34% Brute Force O(n*sizeof(integer))
+    def countBits(self, num):
+        """
+        :type num: int
+        :rtype: List[int]
+        """
+        num = 5
+        res = []
+        for i in range(num+1):
+            temp = 0
+            while i:
+                temp += i&1
+                i >>= 1
+            res.append(temp)
+            
+    # 72ms 96% dp O(n)     
+    def countBits(self, num):
+        """
+        :type num: int
+        :rtype: List[int]
+        """
+        res = [0,1,1]
+        if num <= 2:
+            return res[:num+1]
+        cur_2 = 2
+        for i in range(3,num+1):
+            if i < cur_2*2:
+                res.append(res[cur_2] + res[i-cur_2])
+            elif i > cur_2*2:
+                cur_2 *= 2
+                res.append(res[cur_2] + res[i-cur_2])
+            else:
+                res.append(1)
+        return res
         
         
         

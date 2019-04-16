@@ -9,4 +9,7 @@ LeetCode
 |0063|[Unique PathsII](https://leetcode.com/problemset/all/) | c++ | [python](./solution/63-Unique-PathsII/UniquePathsII.py) | dp | M | 2019/04/15 |
 |0980|[Unique PathsIII](https://leetcode.com/problemset/all/) | c++ | [python](./solution/980-Unique-Paths-III/UniquePathsIII.py) | dfs+back | H | 2019/04/15 |
 |0005|[Longest Palindromic Substring](https://leetcode.com/problemset/all/) | c++ | [python](./solution/5-Longest-Palindromic-Substring/LongestPalindromicSubstring.py) | dp/expand around center | M | 2019/04/15 |
-|0300|[Longest Increasing Subsequence](https://leetcode.com/problemset/all/) | c++ | [python](./solution/300-Longest-Increasing-Subsequence/LongestIncreasingSubsequence.py) | dp/expand around center | M | 2019/04/16 |
+|0300|[Longest Increasing Subsequence](https://leetcode.com/problemset/all/) | c++ | [python](./solution/300-Longest-Increasing-Subsequence/LongestIncreasingSubsequence.py) | dp/dp with binarysearch | M | 2019/04/16 |
+|0191|[Number of 1 Bits](https://leetcode.com/problemset/all/) | c++ | [python](./solution/191-Number-of-1-Bits/Numberof1Bits.py) | bit manipulation | E | 2019/04/16 |
+|0338|[Counting Bits](https://leetcode.com/problemset/all/) | c++ | [python](./solution/338-Counting-Bits/CountingBits.py) | brute force/dp| M | 2019/04/16 |
+
