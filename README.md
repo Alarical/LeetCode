@@ -14,3 +14,7 @@ LeetCode
 | 9 |0338|[Counting Bits](https://leetcode.com/problemset/all/) | c++ | [python](./solution/338-Counting-Bits/CountingBits.py) | brute force/dp| M | 2019/04/16 |
 | 10 |0064|[Minimum Path Sum](https://leetcode.com/problemset/all/) | c++ | [python](./solution/64-Minimum-Path-Sum/MinimumPathSum.py) | dp | M | 2019/04/16 |
 | 11 |0174|[Dungeon Game](https://leetcode.com/problemset/all/) | c++ | [python](./solution/174-Dungeon-Game/DungeonGame.py) | dp | H | 2019/04/17 |
+| 12 |0121|[Best Time to Buy and Sell Stock](https://leetcode.com/problemset/all/) | c++ | [python](./solution/121-Best-Time-to-Buy-and-Sell-Stock/BestTimetoBuyandSellStock.py) | dp | E | 2019/04/17 |
+| 13 |0122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problemset/all/) | c++ | [python](./solution/121-Best-Time-to-Buy-and-Sell-Stock-II/BestTimetoBuyandSellStockII.py) | greedy | E | 2019/04/17 |
+| 14 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problemset/all/) | c++ | [python](./solution/123-Best-Time-to-Buy-and-Sell-Stock-III/BestTimetoBuyandSellStockIII.py) | dp | H | 2019/04/18 |
+

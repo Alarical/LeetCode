@@ -2370,13 +2370,90 @@ class Solution(object):
                 dp[i][j] = max(temp, 1)
         return dp[0][0]
 
+#121. Best Time to Buy and Sell Stock
+class Solution:
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        prices = [7,1,5,3,6,4]
+        if len(prices) == 0:
+            return 0
+        res = 0
+        Min = prices[0]
+        for num in prices:
+            Min = min(num,Min)
+            res = max(res , num-Min)
+        return res
 
+#122. Best Time to Buy and Sell Stock II
+class Solution:
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        if len(prices) == 0:
+            return 0
+        res = 0
+        last = prices[0]
+        for num in prices:
+            last = min(last,num)
+            if num > last:
+                res += num-last
+                last = num
+        return res  
+        
+#123. Best Time to Buy and Sell Stock III        
+class Solution:
+    # 56ms 84%
+    def maxProfit(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        if len(prices) == 0:
+            return 0
+        front = []
+        back = []
+        res,temp = 0,0
+        Min = prices[0]
+        Max = prices[-1]
+        for num in prices:
+            Min = min(num,Min)
+            temp = max(temp , num-Min)
+            front.append(temp)
 
-
-
-
-
-
+        for num in prices[::-1]:
+            Max = max(Max,num)
+            back.append(Max-num)
+        back = back[::-1]
+        for i in range(len(prices)):
+             res = max(res , front[i]+back[i] )
+        return res
+        # TLE
+# =============================================================================
+#         if len(prices) == 0:
+#             return 0
+#         Min = prices[0]
+#         Max = prices[-1]
+#         front = []
+#         back = []
+#         for num in prices:
+#             Min = min(Min,num)
+#             front.append(num-Min)
+#             
+#         for num in prices[::-1]:
+#             Max = max(Max,num)
+#             back.append(Max-num)
+#         back = back[::-1]
+#         res = 0
+#         for i in range(len(prices)-1):
+#             res = max(res , max( front[:i+1] ) + max( back[i:] ))
+#         return res
+# =============================================================================
+        
 
        
 
