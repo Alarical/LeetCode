@@ -2471,26 +2471,177 @@ class Solution:
         mustSell = [[0]* (k+1) for _ in range(n+1) ]
         globalBest = [[0]* (k+1) for _ in range(n+1) ]
 
-        for i in range(1,n+1):
-            profit = prices[i]-prices[i-1]
+        for i in range(1,n):
+            profit = prices[i] - prices[i-1]
             for j in range(1,k+1):
                 mustSell[i][j] = max( globalBest[i-1][j-1] + max(profit , 0) , mustSell[i-1][j]+profit )
                 globalBest[i][j] = max(mustSell[i][j] , globalBest[i-1][j]) 
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+        
+        return globalBest[n-1][k]
+                   
+#96. Unique Binary Search Trees                    
+class Solution:
+    def numTrees(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+# =============================================================================
+#         由1,2,3,...,n构建的二叉查找树，以i为根节点，左子树由[1,i-1]构成，其右子树由[i+1,n]构成。
+#         定义f(i)为以[1,i]能产生的Unique Binary Search Tree的数目
+#         若数组为空，则只有一种BST，即空树，f(0)=1;
+#         若数组仅有一个元素1，则只有一种BST，单个节点，f(1)=1;
+#         若数组有两个元素1，2，则有两种可能，f(2)=f(0)*f(1)+f(1)*f(0);
+#         若数组有三个元素1，2，3，则有f(3)=f(0)*f(2)+f(1)*f(1)+f(2)*f(0)
+#         由此可以得到递推公式：f(i)=f(0)*f(i-1)+...+f(k-1)*f(i-k)+...+f(i-1)*f(0)
+# =============================================================================
+        #对于元素来说，总有排列顺序，所以 1 2 和 6 7的组合数是一样的，都是f(2) = 2
+        n = 3
+        dp = [0 * _ for _ in range(n+1)]
+        dp[0] = 1
+        dp[1] = 1
+        if n <= 1:
+            return 1
+        for i in range(2 , n+1):
+            for j in range(1,i+1):
+                dp[i] += dp[j-1]*dp[i-j]
+        return dp[-1]
+        
+#95. Unique Binary Search Trees II                    
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
-                        
-                        
+class Solution:
+    def generateTrees(self, n: int) -> List[TreeNode]:
+# =============================================================================
+#         Input: 3
+#         Output:
+#         [
+#           [1,null,3,2],
+#           [3,2,null,1],
+#           [3,1,null,null,2],
+#           [2,1,3],
+#           [1,null,2,null,3]
+#         ]                    
+# =============================================================================
+        
+        def dfs(left , right):
+            if left > right:
+                return [None]
+            res = []
+            # 包含n可能为根节点,所以right+1
+            for i in range(left , right+1):
+                # i已经是root节点了，要减掉
+                left_list = dfs(left , i-1)
+                right_list = dfs(i+1 , right)
+                for left in left_list:
+                    for right in right_list:
+                        root = TreeNode(i)
+                        root.left = left
+                        root.right = right
+                        res.append(root)
+            return res
+        
+        if n == 0 : return []
+        return dfs(1,n)
+        
+        
+        def dfs(left , right):
+            if left > right:
+                return [None]
+            res = []
+            for i in range(left, right + 1):
+                left_nodes = dfs(left, i - 1)
+                right_nodes = dfs(i + 1, right)
+                for left_node in left_nodes:
+                    for right_node in right_nodes:
+                        root = TreeNode(i)
+                        root.left = left_node
+                        root.right = right_node
+                        res.append(root)
+            return res
+        if n == 0 : return []
+        return dfs(1,n)
+
+#120. Triangle
+class Solution:
+    def minimumTotal(self, triangle):
+        """
+        :type triangle: List[List[int]]
+        :rtype: int
+        """
+        triangle = [
+     [2],
+    [3,4],
+   [6,5,7],
+  [4,1,8,3]
+]
+        for i in range(1,len(triangle)):
+            length = len(triangle[i-1])
+            for j in range(len(triangle[i])):
+                if j == 0:
+                    triangle[i][j] += triangle[i-1][j]
+                elif j == length:
+                    triangle[i][j] += triangle[i-1][j-1]
+                else:
+                    triangle[i][j] += min(triangle[i-1][j-1] , triangle[i-1][j])
+        return min(triangle[-1])
+
+
+#98. Validate Binary Search Tree                        
+class Solution:
+    def isValidBST(self, root):
+        """
+        :type root: TreeNode
+        :rtype: bool
+        """    
+        stack, inorder = [], float('-inf')
+        
+        while stack or root:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            # If next element in inorder traversal
+            # is smaller than the previous one
+            # that's not BST.
+            if root.val <= inorder:
+                return False
+            inorder = root.val
+            root = root.right
+
+        return True
+        
     
-
+        def dfs(root, Min ,Max):
+            if root == None:
+                return True
+            if root.val <= Min or root.val >= Max :
+                return False
+            return dfs(root.left , Min , root.val) and dfs(root.right , root.val , Max)
+                
+        import sys
+        Max = sys.maxsize
+        Min = -sys.maxsize-1
+    
+        return dfs(root,Min,Max)
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
 
 
