@@ -23,4 +23,5 @@ LeetCode
 | 18 |0120|[Triangle](https://leetcode.com/problemset/all/) | c++ | [python](./solution/120-Triangle/Triangle.py) | dp | M | 2019/04/22 |
 | 19 |0098|[Validate Binary Search Tree](https://leetcode.com/problemset/all/) | c++ | [python](./solution/98-Validate-Binary-Search-Tree/ValidateBinarySearchTree.py) | dfs | M | 2019/04/22 |
 | 20 |0099|[Recover Binary Search Tree](https://leetcode.com/problemset/all/) | c++ | [python](./solution/99-Recover-Binary-Search-Tree/RecoverBinarySearchTree.py) | dfs | H | 2019/04/24 |
+| 21 |0100|[Same Tree](https://leetcode.com/problemset/all/) | c++ | [python](./solution/100-Same-Tree/SameTree.py) | dfs | E | 2019/04/24 |
 
