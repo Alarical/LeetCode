@@ -2,7 +2,7 @@ LeetCode
 ========
 
 | # | No. | Title | C++ | Python | Topics | Difficulty | Date |
-|:----:|:--------:| :--------------: | :--------: | :--------: | :--------: | :-: | :------: |
+|:----:|:------:| :--------------: | :--------: | :--------: | :--------: | :-: | :------: |
 | 1 |0101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | c++ | [python](./solution/101-Symmetric-Tree/SymmetricTree.py) | bfs | E | 2019/04/09 |
 | 2 |0279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/) | c++ | [python](./solution/279-Perfect-Squares/PerfectSquares.py) | bfs | M | 2019/04/09 |
 | 3 |0062|[Unique Paths](https://leetcode.com/problemset/all/) | c++ | [python](./solution/62-Unique-Paths/UniquePaths.py) | dp | M | 2019/04/15 |
@@ -22,4 +22,5 @@ LeetCode
 | 17 |0095|[Unique Binary Search Trees II](https://leetcode.com/problemset/all/) | c++ | [python](./solution/95-Unique-Binary-Search-Trees-II/UniqueBinarySearchTreesII.py) | dfs/dp | M | 2019/04/19 |
 | 18 |0120|[Triangle](https://leetcode.com/problemset/all/) | c++ | [python](./solution/120-Triangle/Triangle.py) | dp | M | 2019/04/22 |
 | 19 |0098|[Validate Binary Search Tree](https://leetcode.com/problemset/all/) | c++ | [python](./solution/98-Validate-Binary-Search-Tree/ValidateBinarySearchTree.py) | dfs | M | 2019/04/22 |
+| 20 |0099|[Recover Binary Search Tree](https://leetcode.com/problemset/all/) | c++ | [python](./solution/99-Recover-Binary-Search-Tree/RecoverBinarySearchTree.py) | dfs | H | 2019/04/24 |
 

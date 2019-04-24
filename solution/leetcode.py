@@ -2616,7 +2616,7 @@ class Solution:
 
         return True
         
-    
+    def isValidBST(self, root):
         def dfs(root, Min ,Max):
             if root == None:
                 return True
@@ -2631,8 +2631,35 @@ class Solution:
         return dfs(root,Min,Max)
             
             
+# 99. Recover Binary Search Tree           
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def recoverTree(self, root):
+        """
+        :type root: TreeNode
+        :rtype: void Do not return anything, modify root in-place instead.
+        """
+        def inorder(root , node_list , value_list):
+            if root == None:
+                return
+            inorder(root.left , node_list , value_list )
+            node_list.append(root)
+            value_list.append(root.val)
+            inorder(root.right , node_list , value_list )
             
-            
+        node_list = []
+        value_list = []
+        inorder(root , node_list, value_list)
+        value_list.sort()
+        for ind,node in enumerate(node_list):
+            node.val = value_list[ind]
+                    
             
             
             
