@@ -26,5 +26,6 @@ LeetCode
 | 21 |0100|[Same Tree](https://leetcode.com/problemset/all/) | c++ | [python](./solution/100-Same-Tree/SameTree.py) | dfs | E | 2019/04/24 |
 | 22 |0104|[Maximum Depth of Binary Tree](https://leetcode.com/problemset/all/) | c++ | [python](./solution/104-Maximum-Depth-of-Binary-Tree/MaximumDepthofBinaryTree.py) | dfs/bfs | E | 2019/04/25 |
 | 23 |0105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problemset/all/) | c++ | [python](./solution/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/ConstructBinaryTreefromPreorderandInorderTraversal.py) | dfs | M | 2019/04/25 |
+| 24 |0106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problemset/all/) | c++ | [python](./solution/106-Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal/ConstructBinaryTreefromInorderandPostorderTraversal.py) | dfs | M | 2019/04/26 |
 
 

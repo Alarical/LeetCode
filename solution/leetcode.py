@@ -2740,11 +2740,28 @@ class Solution:
         return root
 
 
+#106. Construct Binary Tree from Inorder and Postorder Traversal
+class Solution:
+    def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
+        #inorder = [9,3,15,20,7]
+        #postorder = [9,15,7,20,3]
+        if len(postorder) == 0 or len(inorder) == 0:
+            return None
+        root = TreeNode(postorder[-1])
+        index = inorder.index(postorder[-1])
+        # preorder 和 inorder 都减少一个node,即当前root.preorder[0] , inorder[index]
+        root.right = self.buildTree(postorder[index:-1] , inorder[index+1:] )
+        root.left = self.buildTree(postorder[:index] , inorder[:index] )
+        return root
 
 
-
-
-
+def buildTree(self, inorder, postorder):
+    if inorder:
+        ind = inorder.index(postorder.pop())
+        root = TreeNode(inorder[ind])
+        root.right = self.buildTree(inorder[ind+1:], postorder)
+        root.left = self.buildTree(inorder[:ind], postorder)
+        return root
 
 
 
