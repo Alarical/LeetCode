@@ -2661,15 +2661,113 @@ class Solution:
             node.val = value_list[ind]
                     
             
+#100. Same Tree
             
-            
-            
-            
-            
-            
-            
-            
+#101. Symmetric Tree  
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
+class Solution:
+    def isSymmetric(self, root: TreeNode) -> bool:
+        def dfs( p , q ):
+            if p == None and q == None:
+                return True
+            elif p == None or q == None:
+                return False
+            return p.val == q.val and dfs(p.left , q.right) and dfs(p.right , q.left)
+            
+        return dfs(root,root)
+
+    def isSymmetric(self, root: TreeNode) -> bool:
+        queue = [root,root]
+        while len(queue)!= 0:
+            p = queue.pop()
+            q = queue.pop()
+            if p == None and q == None:
+                continue
+            elif p == None or q == None:
+                return False
+            elif p.val != q.val:
+                return False
+            queue.append(p.left)
+            queue.append(q.right)
+            queue.append(p.right)
+            queue.append(q.left)
+        return True
+  
+            
+#104. Maximum Depth of Binary Tree
+class Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+        def dfs(root):
+            if root == None:
+                return 0
+            return max(dfs(root.left) , dfs(root.right)) + 1
+        
+        return dfs(root)
+    
+    def maxDepth(self, root: TreeNode) -> int:
+        depth = 0
+        queue = [root] if root else []
+        while queue:
+            depth += 1
+            temp = []
+            for node in queue:
+                if node.left:
+                    temp.append(node.left)
+                if node.right:
+                    temp.append(node.right)
+            queue = temp
+        return depth
+    
+#105. Construct Binary Tree from Preorder and Inorder Traversal            
+class Solution:
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
+        #preorder = [3,9,20,15,7]
+        #inorder = [9,3,15,20,7]
+        
+        if len(preorder) == 0 or len(inorder) == 0:
+            return None
+        root = TreeNode(preorder[0])
+        index = inorder.index(preorder[0])
+        # preorder 和 inorder 都减少一个node,即当前root.preorder[0] , inorder[index]
+        root.left = self.buildTree(preorder[1:index+1] , inorder[:index] )
+        root.right = self.buildTree(preorder[index+1:] , inorder[index+1:] )
+        return root
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
 
 
