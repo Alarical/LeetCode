@@ -2755,19 +2755,26 @@ class Solution:
         return root
 
 
-def buildTree(self, inorder, postorder):
-    if inorder:
-        ind = inorder.index(postorder.pop())
-        root = TreeNode(inorder[ind])
-        root.right = self.buildTree(inorder[ind+1:], postorder)
-        root.left = self.buildTree(inorder[:ind], postorder)
-        return root
 
 
-
-
-
-
+#153. Find Minimum in Rotated Sorted Array
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+        #36ms 99%
+        if len(nums) == 0:
+            return 0
+        left , right = 0 ,len(nums)-1
+        if nums[left] < nums[right]:
+            return nums[left]
+        while left < right:
+            mid = (left+right)//2
+            if nums[mid] > nums[left]:
+                left = mid
+            elif nums[mid] <= nums[right]:
+                right = mid
+            else:
+                left+=1
+        return nums[left]
 
 
 
