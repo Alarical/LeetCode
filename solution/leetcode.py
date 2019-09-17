@@ -682,7 +682,8 @@ class Solution:
         :type word2: str
         :rtype: int
         """
-
+        word1 = 'aaaa'
+        word2 = 'a'
         m = len(word1)
         n = len(word2)
 
@@ -2778,20 +2779,81 @@ class Solution:
 
 
 
+#72. Edit Distance
+class Solution:
+    def minDistance(self, word1, word2):
+        word1 = 'abccd'
+        word2 = 'abba'
+        m = len(word1)
+        n = len(word2)
+        dp = [ [0] * (n+1) for _ in range(m+1) ]
+        
+        for i in range(m+1):
+            dp[i][0] = i
+        for j in range(n+1):
+            dp[0][j] = j
+        for i in range(1,m+1):
+            for j in range(1,n+1):
+                if word1[i-1] == word2[j-1]:
+                    dp[i][j] = dp[i-1][j-1]
+                else:
+                    dp[i][j] = min(dp[i][j-1],dp[i-1][j],dp[i-1][j-1])+1
+        return dp[-1][-1]
+
+#438. Find All Anagrams in a String
+class Solution:
+    def findAnagrams(self, s: str, p: str) -> List[int]:
+        s = "abab" 
+        p = "ab"
+        dic = dict()
+        for i in range(26):
+            dic.setdefault(i, 0)
+        for i in p:
+            dic[ord(i)-ord('a')] += 1    
+        l, count, pLength = 0 , 0 , len(p)
+        res = []
+        for r in range(len(s)):
+            dic[ord(s[r]) - ord('a')] -= 1
+            if dic[ord(s[r]) - ord('a')] >= 0:
+                count += 1
+            if r > pLength-1 :
+                dic[ord(s[l]) - ord('a')] += 1
+                if dic[ord(s[l]) - ord('a')] > 0: #表明还回去 且未被使用
+                    count -= 1
+                l += 1
+            # 更新成果
+            if count == pLength:
+                res.append(l)
+            
+        return res
+    
+#567. Permutation in String 104ms 31.25%
+        
+class Solution:
+    def checkInclusion(self, s1: str, s2: str) -> bool:
+        dic = dict()
+        for i in range(26):
+            dic.setdefault(i, 0)
+        for i in s1:
+            dic[ord(i)-ord('a')] += 1
+        l , count = 0 , 0
+        for r in range(len(s2)):
+            dic[ord(s2[r]) - ord('a')] -= 1
+            if dic[ord(s2[r]) - ord('a')] >= 0:
+                count += 1
+            if r >= len(s1):
+                dic[ord(s2[l]) - ord('a')] += 1
+                if dic[ord(s2[l]) - ord('a')] >= 1:
+                    count -= 1
+                l += 1
+            if count == len(s1):
+                return True
+        return False
+            
+#76            
 
 
 
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
+#480. Sliding Window Median
 
 

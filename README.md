@@ -28,5 +28,6 @@ LeetCode
 | 23 |0105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problemset/all/) | c++ | [python](./solution/105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/ConstructBinaryTreefromPreorderandInorderTraversal.py) | dfs | M | 2019/04/25 |
 | 24 |0106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problemset/all/) | c++ | [python](./solution/106-Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal/ConstructBinaryTreefromInorderandPostorderTraversal.py) | dfs | M | 2019/04/26 |
 | 25 |0153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problemset/all/) | c++ | [python](./solution/153-Find-Minimum-in-Rotated-Sorted-Array/FindMinimuminRotatedSortedArray.py) | binary search | M | 2019/04/28 |
-| 26 |0072|[Edit Distance](https://leetcode.com/problemset/all/) | c++ | [python](./solution/72-Edit-Distance/EditDistance.py) | binary search | H | 2019/05/21 |
+| 26 |0072|[Edit Distance](https://leetcode.com/problemset/all/) | c++ | [python](./solution/72-Edit-Distance/EditDistance.py) | dp | H | 2019/05/21 |
+| 27 |1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problemset/all/) | c++ | [python](./solution/1190-Reverse-Substrings-Between-Each-Pair-of-Parentheses/ReverseSubstringsBetweenEachPairofParentheses.py) | stack | M | 2019/09/17 |
 
