@@ -74,6 +74,7 @@ docs/_build/
 # PyBuilder
 target/
 .idea
+.gitignore
 
 # Jupyter Notebook
 .ipynb_checkpoints
