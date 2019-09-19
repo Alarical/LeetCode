@@ -31,4 +31,5 @@ LeetCode
 | 26 |72|[Edit Distance](https://leetcode.com/problemset/all/) | c++ | [python](./solution/72EditDistance.py) | dp | H | 2019/05/21 |
 | 27 |1190|[Reverse Substrings Between Each Pair of Parentheses](https://leetcode.com/problemset/all/) | c++ | [python](./solution/1190ReverseSubstringsBetweenEachPairofParentheses.py) | stack | M | 2019/09/17 |
 | 28 |10|[Regular Expression Matching](https://leetcode.com/problemset/all/) | c++ | [python](./solution/10RegularExpressionMatching.py) | 双序列dp | H | 2019/09/18 |
+| 29 |1191|[K-Concatenation Maximum Sum](https://leetcode.com/problemset/all/) | [c++](./solution/1191K-ConcatenationMaximumSum.cpp) | python | array | M | 2019/09/19 |
 
