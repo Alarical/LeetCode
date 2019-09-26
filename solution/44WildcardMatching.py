@@ -15,11 +15,11 @@ class Solution:
                 dp[i][j] = False
                 if p[j-1] == '*':
                     dp[i][j] |= dp[i][j-1]
-                    if dp[i][j-1] == True:
+                    #if dp[i][j-1] == True:
                         #pi[i][j] = 2
                     if i > 0:
                         dp[i][j] |= dp[i-1][j]
-                        if dp[i-1][j] == True:
+                        #if dp[i-1][j] == True:
                             #pi[i][j] = 3
                 else:
                     if i > 0 and (s[i-1] == p[j-1] or p[j-1] == '?'):

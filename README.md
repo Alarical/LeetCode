@@ -35,5 +35,7 @@ LeetCode
 | 30 |239|[Sliding Window Maximum](https://leetcode.com/problemset/all/) | c++ | [python](./solution/239SlidingWindowMaximum.py) | array | H | 2019/09/19 |
 | 31 |69|[Sqrt(x)](https://leetcode.com/problemset/all/) | [c++](./solution/69Sqrt(x).cpp) | python | binary search | E | 2019/09/20 |
 | 32 |480|[Sliding Window Median](https://leetcode.com/problemset/all/) | c++ | [python](./solution/480SlidingWindowMedian.py) | insert sort | H | 2019/09/22 |
-| 33 |44|[Wildcard Matching](https://leetcode.com/problemset/all/) | c++ | [python](./solution/44WildcardMatching.py) | 双序列dp | H | 2019/09/26 |
+| 33 |44|[Wildcard Matching](https://leetcode.com/problemset/all/) | [c++ ](./solution/44WildcardMatching.cpp)| [python](./solution/44WildcardMatching.py) | 双序列dp | H | 2019/09/26 |
+| 34 |21|[Merge Two Sorted Lists](https://leetcode.com/problemset/all/) | [c++](./solution/21MergeTwoSortedLists.cpp) | python | two pointers | E | 2019/09/27 |
+| 35 |23|[Merge k Sorted Lists](https://leetcode.com/problemset/all/) | [c++](./solution/23MergekSortedLists.cpp) | python | priority queue/merge sort | H | 2019/09/27 |
 
