@@ -38,4 +38,17 @@ LeetCode
 | 33 |44|[Wildcard Matching](https://leetcode.com/problemset/all/) | [c++ ](./solution/44WildcardMatching.cpp)| [python](./solution/44WildcardMatching.py) | 双序列dp | H | 2019/09/26 |
 | 34 |21|[Merge Two Sorted Lists](https://leetcode.com/problemset/all/) | [c++](./solution/21MergeTwoSortedLists.cpp) | python | two pointers | E | 2019/09/27 |
 | 35 |23|[Merge k Sorted Lists](https://leetcode.com/problemset/all/) | [c++](./solution/23MergekSortedLists.cpp) | python | priority queue/merge sort | H | 2019/09/27 |
+| 36 |778|[Swim in Rising Water](https://leetcode.com/problemset/all/) | [c++](./solution/778SwiminRisingWater.cpp) | python | priority queue/binary search | H | 2019/09/28 |
+| 37 |252|[Meeting Rooms](https://leetcode.com/problemset/all/) | [c++](./solution/252MeetingRooms.cpp) | python | array | E | 2019/09/28 |
+| 38 |253|[Meeting Rooms II](https://leetcode.com/problemset/all/) | [c++](./solution/253MeetingRoomsII.cpp) | python | hashmap | M | 2019/09/29 |
+| 39 |1202|[Smallest String With Swaps](https://leetcode.com/problemset/all/) | [c++](./solution/1202SmallestStringWithSwaps.cpp) | python | graph | M | 2019/09/30 |
+| 40 |42|[Trapping Rain Water](https://leetcode.com/problemset/all/) | [c++](./solution/42TrappingRainWater.cpp) | python | two pointers | H | 2019/09/30 |
+| 41 |287|[Find the Duplicate Number](https://leetcode.com/problemset/all/) | [c++](./solution/287FindtheDuplicateNumber.cpp) | python | binary search | M | 2019/10/01 |
+| 42 |56|[Merge Intervals](https://leetcode.com/problemset/all/) | [c++](./solution/56MergeIntervals.cpp) | python | binary search | M | 2019/10/02 |
+| 43 |57|[Insert Interval](https://leetcode.com/problemset/all/) | [c++](./solution/57InsertInterval.cpp) | python | binary search | H | 2019/10/02 |
+| 44 |149|[Max Pointson a Line](https://leetcode.com/problemset/all/) | [c++](./solution/149MaxPointsonaLine.cpp) | python | map | H | 2019/10/03|
+| 45 |684|[Redundant Connection](https://leetcode.com/problemset/all/) | [c++](./solution/684RedundantConnection.cpp) | python | union find | M | 2019/10/04|
+| 46 |547|[Friend Circles](https://leetcode.com/problemset/all/) | [c++](./solution/547FriendCircles.cpp) | python | union find/dfs | M | 2019/10/05|
+| 47 |148|[Sort List](https://leetcode.com/problemset/all/) | [c++](./solution/148SortList.cpp) | python | merge sort | M | 2019/10/05|
+| 48 |5099|[验证回文字符串III](https://leetcode.com/problemset/all/) | [c++](./solution/5099验证回文字符串III.cpp) | python | dp | H | 2019/10/06|
 
