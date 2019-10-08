@@ -50,9 +50,11 @@ LeetCode
 | 45 |684|[Redundant Connection](https://leetcode.com/problemset/all/) | [c++](./solution/684RedundantConnection.cpp) | python | union find | M | 2019/10/04|
 | 46 |547|[Friend Circles](https://leetcode.com/problemset/all/) | [c++](./solution/547FriendCircles.cpp) | python | union find/dfs | M | 2019/10/05|
 | 47 |148|[Sort List](https://leetcode.com/problemset/all/) | [c++](./solution/148SortList.cpp) | python | merge sort | M | 2019/10/05|
-| 48 |5099|[ValidPalindromeIII](https://leetcode.com/problemset/all/) | [c++](./solution/5099ValidPalindromeIII.cpp) | python | dp | H | 2019/10/06|
+| 48 |5099|[Valid Palindrome III](https://leetcode.com/problemset/all/) | [c++](./solution/5099ValidPalindromeIII.cpp) | python | dp | H | 2019/10/06|
 | 49 |5213|[Play with Chips](https://leetcode.com/problemset/all/) | [c++](./solution/5213PlaywithChips.cpp) | python | array | E | 2019/10/06|
 | 50 |5214|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problemset/all/) | [c++](./solution/5214LongestArithmeticSubsequenceofGivenDifference.cpp) | python | dp | M | 2019/10/06|
 | 51 |5215|[Path wit hMaximum Gold](https://leetcode.com/problemset/all/) | [c++](./solution/5215PathwithMaximumGold.cpp) | python | dfs | M | 2019/10/07|
 | 52 |5216|[Count Vowels Permutation](https://leetcode.com/problemset/all/) | [c++](./solution/5216CountVowelsPermutation.cpp) | python | dp | H | 2019/10/07|
+| 53 |207|[Course Schedule](https://leetcode.com/problemset/all/) | c++ | [python](./solution/207CourseSchedule.cpp) | dfs/bfs | M | 2019/10/08|
+| 54 |210|[Course Schedule II](https://leetcode.com/problemset/all/) | c++| [python](./solution/210CourseScheduleII.cpp) | dfs/bfs | M | 2019/10/08|
 
