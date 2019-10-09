@@ -57,4 +57,5 @@ LeetCode
 | 52 |5216|[Count Vowels Permutation](https://leetcode.com/problemset/all/) | [c++](./solution/5216CountVowelsPermutation.cpp) | python | dp | H | 2019/10/07|
 | 53 |207|[Course Schedule](https://leetcode.com/problemset/all/) | c++ | [python](./solution/207CourseSchedule.cpp) | dfs/bfs | M | 2019/10/08|
 | 54 |210|[Course Schedule II](https://leetcode.com/problemset/all/) | c++| [python](./solution/210CourseScheduleII.cpp) | dfs/bfs | M | 2019/10/08|
+| 55 |630|[Course Schedule III](https://leetcode.com/problemset/all/) | c++| [python](./solution/630CourseScheduleIII.cpp) | greedy | H | 2019/10/09|
 
