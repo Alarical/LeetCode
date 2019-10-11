@@ -60,4 +60,6 @@ LeetCode
 | 55 |630|[Course Schedule III](https://leetcode.com/problemset/all/) | c++| [python](./solution/630CourseScheduleIII.py) | greedy | H | 2019/10/09|
 | 56 |875|[Koko Eating Bananas](https://leetcode.com/problemset/all/) | [c++](./solution/875KokoEatingBananas.cpp)| python | binary search | M | 2019/10/10|
 | 57 |103|[Binary Tree Zigzag LevelOrder Traversal](https://leetcode.com/problemset/all/) | [c++](./solution/103BinaryTreeZigzagLevelOrderTraversal.cpp)| python | bfs | M | 2019/10/10|
+| 58 |5073|[Minimum Knight Moves](https://leetcode.com/problemset/all/) | c++| [python](./solution/5073MinimumKnightMoves.py) | bfs | M | 2019/10/11|
+| 59 |125|[Valid Palindrome](https://leetcode.com/problemset/all/) | [c++](./solution/125ValidPalindrome.cpp) | python | two pointers | E | 2019/10/11|
 
