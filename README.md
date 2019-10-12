@@ -62,4 +62,5 @@ LeetCode
 | 57 |103|[Binary Tree Zigzag LevelOrder Traversal](https://leetcode.com/problemset/all/) | [c++](./solution/103BinaryTreeZigzagLevelOrderTraversal.cpp)| python | bfs | M | 2019/10/10|
 | 58 |5073|[Minimum Knight Moves](https://leetcode.com/problemset/all/) | c++| [python](./solution/5073MinimumKnightMoves.py) | bfs | M | 2019/10/11|
 | 59 |125|[Valid Palindrome](https://leetcode.com/problemset/all/) | [c++](./solution/125ValidPalindrome.cpp) | python | two pointers | E | 2019/10/11|
+| 60 |680|[Valid Palindrome II](https://leetcode.com/problemset/all/) | c++| [python](./solution/680ValidPalindromeII.py) | two pointers | E | 2019/10/11|
 
