@@ -62,5 +62,11 @@ LeetCode
 | 57 |103|[Binary Tree Zigzag LevelOrder Traversal](https://leetcode.com/problemset/all/) | [c++](./solution/103BinaryTreeZigzagLevelOrderTraversal.cpp)| python | bfs | M | 2019/10/10|
 | 58 |5073|[Minimum Knight Moves](https://leetcode.com/problemset/all/) | c++| [python](./solution/5073MinimumKnightMoves.py) | bfs | M | 2019/10/11|
 | 59 |125|[Valid Palindrome](https://leetcode.com/problemset/all/) | [c++](./solution/125ValidPalindrome.cpp) | python | two pointers | E | 2019/10/11|
-| 60 |680|[Valid Palindrome II](https://leetcode.com/problemset/all/) | c++| [python](./solution/680ValidPalindromeII.py) | two pointers | E | 2019/10/11|
+| 60 |680|[Valid Palindrome II](https://leetcode.com/problemset/all/) | c++| [python](./solution/680ValidPalindromeII.py) | two pointers | E | 2019/10/12|
+| 61 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problemset/all/) | c++| [python](./solution/17LetterCombinationsofaPhoneNumber.py) | backtracking | M | 2019/10/14|
+| 62 |39|[Combination Sum](https://leetcode.com/problemset/all/) | c++| [python](./solution/39CombinationSum.py) | backtracking | M | 2019/10/14|
+| 63 |130|[Surrounded Regions](https://leetcode.com/problemset/all/) | [c++](./solution/130SurroundedRegions.cpp) | python | dfs | M | 2019/10/15|
+| 64 |474|[Ones and Zeroes](https://leetcode.com/problemset/all/) | [c++](./solution/474OnesandZeroes.cpp) | python | 双序列dp | M | 2019/10/16|
+| 65 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problemset/all/) | c++| [python](./solution/129SumRoottoLeafNumbers.py) | dfs | M | 2019/10/17|
+| 66 |198|[House Robber](https://leetcode.com/problemset/all/) | c++| [python](./solution/198HouseRobber.py) | dp | E | 2019/10/18|
 
