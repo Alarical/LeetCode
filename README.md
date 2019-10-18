@@ -69,4 +69,6 @@ LeetCode
 | 64 |474|[Ones and Zeroes](https://leetcode.com/problemset/all/) | [c++](./solution/474OnesandZeroes.cpp) | python | 双序列dp | M | 2019/10/16|
 | 65 |129|[Sum Root to Leaf Numbers](https://leetcode.com/problemset/all/) | c++| [python](./solution/129SumRoottoLeafNumbers.py) | dfs | M | 2019/10/17|
 | 66 |198|[House Robber](https://leetcode.com/problemset/all/) | c++| [python](./solution/198HouseRobber.py) | dp | E | 2019/10/18|
+| 67 |213|[House Robber II](https://leetcode.com/problemset/all/) | [c++](./solution/213HouseRobberII.cpp) | python | dp | M | 2019/10/18|
+| 68 |337|[House Robber III](https://leetcode.com/problemset/all/) | [c++](./solution/HouseRobberIII.cpp) | python | dfs+dp | M | 2019/10/18|
 
