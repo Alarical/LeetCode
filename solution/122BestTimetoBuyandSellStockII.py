@@ -13,4 +13,4 @@ class Solution:
             if num > last:
                 res += num-last
                 last = num
-        return res  
+        return res

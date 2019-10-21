@@ -71,4 +71,8 @@ LeetCode
 | 66 |198|[House Robber](https://leetcode.com/problemset/all/) | c++| [python](./solution/198HouseRobber.py) | dp | E | 2019/10/18|
 | 67 |213|[House Robber II](https://leetcode.com/problemset/all/) | [c++](./solution/213HouseRobberII.cpp) | python | dp | M | 2019/10/18|
 | 68 |337|[House Robber III](https://leetcode.com/problemset/all/) | [c++](./solution/HouseRobberIII.cpp) | python | dfs+dp | M | 2019/10/18|
+| 69 |303|[Range Sum Query - Immutable](https://leetcode.com/problemset/all/) | c++| [python](./solution/303RangeSumQuery-Immutable.py) | dp | E | 2019/10/19|
+| 70 |392|[Is Subsequence](https://leetcode.com/problemset/all/) | c++| [python](./solution/392IsSubsequence.py) | dp | E | 2019/10/20|
+| 71 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problemset/all/) | c++| [python](./solution/309BestTimetoBuyandSellStockwithCooldown.py) | dp | M | 2019/10/21|
+
 
