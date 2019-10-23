@@ -74,5 +74,5 @@ LeetCode
 | 69 |303|[Range Sum Query - Immutable](https://leetcode.com/problemset/all/) | c++| [python](./solution/303RangeSumQuery-Immutable.py) | dp | E | 2019/10/19|
 | 70 |392|[Is Subsequence](https://leetcode.com/problemset/all/) | c++| [python](./solution/392IsSubsequence.py) | dp | E | 2019/10/20|
 | 71 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problemset/all/) | c++| [python](./solution/309BestTimetoBuyandSellStockwithCooldown.py) | dp | M | 2019/10/21|
-
+| 72 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problemset/all/) | c++| [python](./solution/714BestTimetoBuyandSellStockwithTransactionFee.py) | dp | M | 2019/10/22|
 
