@@ -17,7 +17,18 @@ class Solution:
             dp[i] = temp+1
             res = max(res,dp[i])
         return res
-                
+
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        n = len(nums)
+        if n == 0 : return 0
+        dp = [1 for _ in range(n+1)]
+        for i in range(n):
+            for j in range(i):
+                if nums[j] < nums[i]:
+                    dp[i] = max(dp[i], dp[j] + 1)
+        return max(dp)
+
+    # binary search
     def lengthOfLIS(self, nums: List[int]) -> int:
         def binarysearch( s , num):
             l , r = 0 , len(s)-1
