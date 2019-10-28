@@ -75,4 +75,8 @@ LeetCode
 | 70 |392|[Is Subsequence](https://leetcode.com/problemset/all/) | c++| [python](./solution/392IsSubsequence.py) | dp | E | 2019/10/20|
 | 71 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problemset/all/) | c++| [python](./solution/309BestTimetoBuyandSellStockwithCooldown.py) | dp | M | 2019/10/21|
 | 72 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problemset/all/) | c++| [python](./solution/714BestTimetoBuyandSellStockwithTransactionFee.py) | dp | M | 2019/10/22|
+| 73 |152|[Maximum Product Subarray](https://leetcode.com/problemset/all/) | c++| [python](./solution/152MaximumProductSubarray.py) | dp | M | 2019/10/22|
+| 74 |5238|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problemset/all/) | [c++](./solution/5238FindPositiveIntegerSolutionforaGivenEquation.cpp) | python | other | E | 2019/10/26 |
+| 75 |5239|[Circular Permutation in Binary Representation](https://leetcode.com/problemset/all/) | c++| [python](./solution/5239CircularPermutationinBinaryRepresentation.py) | dfs+backtrack | M | 2019/10/27 |
+| 75 |5240|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problemset/all/) | [c++](./solution/5240MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp) | python | dfs+backtrack | M | 2019/10/28 |
 
