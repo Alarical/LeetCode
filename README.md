@@ -78,5 +78,6 @@ LeetCode
 | 73 |152|[Maximum Product Subarray](https://leetcode.com/problemset/all/) | c++| [python](./solution/152MaximumProductSubarray.py) | dp | M | 2019/10/22|
 | 74 |5238|[Find Positive Integer Solution for a Given Equation](https://leetcode.com/problemset/all/) | [c++](./solution/5238FindPositiveIntegerSolutionforaGivenEquation.cpp) | python | other | E | 2019/10/26 |
 | 75 |5239|[Circular Permutation in Binary Representation](https://leetcode.com/problemset/all/) | c++| [python](./solution/5239CircularPermutationinBinaryRepresentation.py) | dfs+backtrack | M | 2019/10/27 |
-| 75 |5240|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problemset/all/) | [c++](./solution/5240MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp) | python | dfs+backtrack | M | 2019/10/28 |
+| 76 |5240|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problemset/all/) | [c++](./solution/5240MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp) | python | dfs+backtrack | M | 2019/10/28 |
+| 77 |918|[Maximum Sum Circular Subarray](https://leetcode.com/problemset/all/) | [c++](./solution/918MaximumSumCircularSubarray.cpp) | python | array | M | 2019/10/29 |
 
