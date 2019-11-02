@@ -81,5 +81,7 @@ LeetCode
 | 76 |5240|[Maximum Length of a Concatenated String with Unique Characters](https://leetcode.com/problemset/all/) | [c++](./solution/5240MaximumLengthofaConcatenatedStringwithUniqueCharacters.cpp) | python | dfs+backtrack | M | 2019/10/28 |
 | 77 |918|[Maximum Sum Circular Subarray](https://leetcode.com/problemset/all/) | [c++](./solution/918MaximumSumCircularSubarray.cpp) | python | array | M | 2019/10/29 |
 | 78 |827|[Making A Large Island](https://leetcode.com/problemset/all/) | [c++](./solution/827MakingALargeIsland.cpp) | python | dfs | M | 2019/10/30 |
-| 79 |221|[Maximal Square](https://leetcode.com/problemset/all/) | [c++](./solution/221MaximalSquare.cpp) | python | dfs | M | 2019/10/30 |
+| 79 |221|[Maximal Square](https://leetcode.com/problemset/all/) | [c++](./solution/221MaximalSquare.cpp) | python | dp | M | 2019/10/31 |
+| 80 |84|[Largest Rectangle in Histogram](https://leetcode.com/problemset/all/) | c++| [python](./solution/84LargestRectangleinHistogram.py) | stack | H | 2019/11/01 |
+| 81 |115|[Distinct Subsequences](https://leetcode.com/problemset/all/) | c++| [python](./solution/115DistinctSubsequences.py) | 双序列dp | H | 2019/11/02 |
 
