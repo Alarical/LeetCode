@@ -87,3 +87,6 @@ LeetCode
 | 82 |206|[Reverse LinkedList](https://leetcode.com/problemset/all/) | c++| [python](./solution/206ReverseLinkedList.py) | Linklist | E | 2019/11/03 |
 | 83 |322|[Coin Change](https://leetcode.com/problemset/all/) | c++| [python](./solution/322CoinChange.py) | dp | M | 2019/11/04 |
 | 84 |1248|[Count Number of Nice Subarrays](https://leetcode.com/problemset/all/) | c++| [python](./solution/1248CountNumberofNiceSubarrays.py) | array | M | 2019/11/05 |
+| 85 |131|[Palindrome Partitioning](https://leetcode.com/problemset/all/) | c++| [python](./solution/131PalindromePartitioning.py) | dfs+backtrack | M | 2019/11/06 |
+
+
