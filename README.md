@@ -90,5 +90,7 @@ LeetCode
 | 85 |131|[Palindrome Partitioning](https://leetcode.com/problemset/all/) | c++| [python](./solution/131PalindromePartitioning.py) | dfs+backtrack | M | 2019/11/06 |
 | 86 |78|[Subsets](https://leetcode.com/problemset/all/) | c++| [python](./solution/78Subsets.py) | dfs+backtrack | M | 2019/11/07 |
 | 87 |90|[Subsets II](https://leetcode.com/problemset/all/) | c++| [python](./solution/90SubsetsII.py) | dfs+backtrack | M | 2019/11/08 |
+| 88 |40|[Combination Sum II](https://leetcode.com/problemset/all/) | c++| [python](./solution/40CombinationSumII.py) | dfs+backtrack | M | 2019/11/09 |
+| 89 |46|[Permutations](https://leetcode.com/problemset/all/) | c++| [python](./solution/46Permutations.py) | dfs+backtrack | M | 2019/11/10 |
 
 
