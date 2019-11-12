@@ -92,5 +92,7 @@ LeetCode
 | 87 |90|[Subsets II](https://leetcode.com/problemset/all/) | c++| [python](./solution/90SubsetsII.py) | dfs+backtrack | M | 2019/11/08 |
 | 88 |40|[Combination Sum II](https://leetcode.com/problemset/all/) | c++| [python](./solution/40CombinationSumII.py) | dfs+backtrack | M | 2019/11/09 |
 | 89 |46|[Permutations](https://leetcode.com/problemset/all/) | c++| [python](./solution/46Permutations.py) | dfs+backtrack | M | 2019/11/10 |
+| 90 |47|[Permutations II](https://leetcode.com/problemset/all/) | c++| [python](./solution/47PermutationsII.py) | dfs+backtrack | M | 2019/11/11 |
+| 91 |110|[Balanced Binary Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/110BalancedBinaryTree.py) | tree | E | 2019/11/12 |
 
 
