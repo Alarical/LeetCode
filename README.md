@@ -59,7 +59,7 @@ LeetCode
 | 54 |210|[Course Schedule II](https://leetcode.com/problemset/all/) | [c++](./solution/210CourseScheduleII.cpp) | [python](./solution/210CourseScheduleII.py) | dfs/bfs | M | 2019/10/08|
 | 55 |630|[Course Schedule III](https://leetcode.com/problemset/all/) | c++| [python](./solution/630CourseScheduleIII.py) | greedy | H | 2019/10/09|
 | 56 |875|[Koko Eating Bananas](https://leetcode.com/problemset/all/) | [c++](./solution/875KokoEatingBananas.cpp)| python | binary search | M | 2019/10/10|
-| 57 |103|[Binary Tree Zigzag LevelOrder Traversal](https://leetcode.com/problemset/all/) | [c++](./solution/103BinaryTreeZigzagLevelOrderTraversal.cpp)| python | bfs | M | 2019/10/10|
+| 57 |103|[Binary Tree Zigzag LevelOrder Traversal](https://leetcode.com/problemset/all/) | [c++](./solution/103BinaryTreeZigzagLevelOrderTraversal.cpp)| [python](103BinaryTreeZigzagLevelOrderTraversal.py) | bfs+tree | M | 2019/10/10|
 | 58 |5073|[Minimum Knight Moves](https://leetcode.com/problemset/all/) | c++| [python](./solution/5073MinimumKnightMoves.py) | bfs | M | 2019/10/11|
 | 59 |125|[Valid Palindrome](https://leetcode.com/problemset/all/) | [c++](./solution/125ValidPalindrome.cpp) | python | two pointers | E | 2019/10/11|
 | 60 |680|[Valid Palindrome II](https://leetcode.com/problemset/all/) | c++| [python](./solution/680ValidPalindromeII.py) | two pointers | E | 2019/10/12|
@@ -94,5 +94,7 @@ LeetCode
 | 89 |46|[Permutations](https://leetcode.com/problemset/all/) | c++| [python](./solution/46Permutations.py) | dfs+backtrack | M | 2019/11/10 |
 | 90 |47|[Permutations II](https://leetcode.com/problemset/all/) | c++| [python](./solution/47PermutationsII.py) | dfs+backtrack | M | 2019/11/11 |
 | 91 |110|[Balanced Binary Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/110BalancedBinaryTree.py) | tree | E | 2019/11/12 |
+| 92 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/102BinaryTreeLevelOrderTraversal.py) | tree | M | 2019/11/13 |
+| 93 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/111MinimumDepthofBinaryTree.py) | dfs+tree | E | 2019/11/14 |
 
 
