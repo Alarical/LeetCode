@@ -84,7 +84,7 @@ LeetCode
 | 79 |221|[Maximal Square](https://leetcode.com/problemset/all/) | [c++](./solution/221MaximalSquare.cpp) | python | dp | M | 2019/10/31 |
 | 80 |84|[Largest Rectangle in Histogram](https://leetcode.com/problemset/all/) | c++| [python](./solution/84LargestRectangleinHistogram.py) | stack | H | 2019/11/01 |
 | 81 |115|[Distinct Subsequences](https://leetcode.com/problemset/all/) | c++| [python](./solution/115DistinctSubsequences.py) | 双序列dp | H | 2019/11/02 |
-| 82 |206|[Reverse LinkedList](https://leetcode.com/problemset/all/) | c++| [python](./solution/206ReverseLinkedList.py) | Linklist | E | 2019/11/03 |
+| 82 |206|[Reverse LinkedList](https://leetcode.com/problemset/all/) | c++| [python](./solution/206ReverseLinkedList.py) | inklist | E | 2019/11/03 |
 | 83 |322|[Coin Change](https://leetcode.com/problemset/all/) | c++| [python](./solution/322CoinChange.py) | dp | M | 2019/11/04 |
 | 84 |1248|[Count Number of Nice Subarrays](https://leetcode.com/problemset/all/) | c++| [python](./solution/1248CountNumberofNiceSubarrays.py) | array | M | 2019/11/05 |
 | 85 |131|[Palindrome Partitioning](https://leetcode.com/problemset/all/) | c++| [python](./solution/131PalindromePartitioning.py) | dfs+backtrack | M | 2019/11/06 |
@@ -96,5 +96,7 @@ LeetCode
 | 91 |110|[Balanced Binary Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/110BalancedBinaryTree.py) | tree | E | 2019/11/12 |
 | 92 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/102BinaryTreeLevelOrderTraversal.py) | tree | M | 2019/11/13 |
 | 93 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/111MinimumDepthofBinaryTree.py) | dfs+tree | E | 2019/11/14 |
-
+| 94 |148|[Sort List](https://leetcode.com/problemset/all/) | c++| [python](./solution/148SortList.py) | linklist | M | 2019/11/15 |
+| 95 |286|[Walls and Gates](https://leetcode.com/problemset/all/) | c++| [python](./solution/286WallsandGates.py) | dfs+bfs | M | 2019/11/16 |
+| 96 |296|[Best Meeting Point](https://leetcode.com/problemset/all/) | c++| [python](./solution/296BestMeetingPoint.py) | array | H | 2019/11/16 |
 
