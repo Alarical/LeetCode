@@ -55,8 +55,8 @@ LeetCode
 | 50 |5214|[Longest Arithmetic Subsequence of Given Difference](https://leetcode.com/problemset/all/) | [c++](./solution/5214LongestArithmeticSubsequenceofGivenDifference.cpp) | python | dp | M | 2019/10/06|
 | 51 |5215|[Path wit hMaximum Gold](https://leetcode.com/problemset/all/) | [c++](./solution/5215PathwithMaximumGold.cpp) | python | dfs | M | 2019/10/07|
 | 52 |5216|[Count Vowels Permutation](https://leetcode.com/problemset/all/) | [c++](./solution/5216CountVowelsPermutation.cpp) | python | dp | H | 2019/10/07|
-| 53 |207|[Course Schedule](https://leetcode.com/problemset/all/) | c++ | [python](./solution/207CourseSchedule.py) | dfs/bfs | M | 2019/10/08|
-| 54 |210|[Course Schedule II](https://leetcode.com/problemset/all/) | [c++](./solution/210CourseScheduleII.cpp) | [python](./solution/210CourseScheduleII.py) | dfs/bfs | M | 2019/10/08|
+| 53 |207|[Course Schedule](https://leetcode.com/problemset/all/) | c++ | [python](./solution/207CourseSchedule.py) | dfs/bfs/拓扑排序 | M | 2019/10/08|
+| 54 |210|[Course Schedule II](https://leetcode.com/problemset/all/) | [c++](./solution/210CourseScheduleII.cpp) | [python](./solution/210CourseScheduleII.py) | dfs/bfs/拓扑排序 | M | 2019/10/08|
 | 55 |630|[Course Schedule III](https://leetcode.com/problemset/all/) | c++| [python](./solution/630CourseScheduleIII.py) | greedy | H | 2019/10/09|
 | 56 |875|[Koko Eating Bananas](https://leetcode.com/problemset/all/) | [c++](./solution/875KokoEatingBananas.cpp)| python | binary search | M | 2019/10/10|
 | 57 |103|[Binary Tree Zigzag LevelOrder Traversal](https://leetcode.com/problemset/all/) | [c++](./solution/103BinaryTreeZigzagLevelOrderTraversal.cpp)| [python](103BinaryTreeZigzagLevelOrderTraversal.py) | bfs+tree | M | 2019/10/10|
@@ -99,4 +99,10 @@ LeetCode
 | 94 |148|[Sort List](https://leetcode.com/problemset/all/) | c++| [python](./solution/148SortList.py) | linklist | M | 2019/11/15 |
 | 95 |286|[Walls and Gates](https://leetcode.com/problemset/all/) | c++| [python](./solution/286WallsandGates.py) | dfs+bfs | M | 2019/11/16 |
 | 96 |296|[Best Meeting Point](https://leetcode.com/problemset/all/) | c++| [python](./solution/296BestMeetingPoint.py) | array | H | 2019/11/16 |
+| 97 |1101|[The Earliest Moment When Everyone Become Friends](https://leetcode.com/problemset/all/) | c++| [python](./solution/1101TheEarliestMomentWhenEveryoneBecomeFriends.py) | unionfind | M | 2019/11/17 |
+| 98 |1262|[Greatest Sum Divisible by Three](https://leetcode.com/problemset/all/) | c++| [python](./solution/1262GreatestSumDivisiblebyThree.py) | array | M | 2019/11/18 |
+| 99 |33|[Search in Rotated Sorted Array](https://leetcode.com/problemset/all/) | c++| [python](./solution/33SearchinRotatedSortedArray.py) | binary search | M | 2019/11/19 |
+| 100 |215|[Kth Largest Element in an Array](https://leetcode.com/problemset/all/) | c++| [python](./solution/215KthLargestElementinanArray.py) | binary search | M | 2019/11/20 |
+| 101 |222|[Count Complete TreeNodes](https://leetcode.com/problemset/all/) | c++| [python](./solution/222CountCompleteTreeNodes.py) | tree/dfs | M | 2019/11/21 |
+| 102 |479|[Largest Palindrome Product](https://leetcode.com/problemset/all/) | c++| [python](./solution/479LargestPalindromeProduct.py) |  | H | 2019/11/22 |
 
