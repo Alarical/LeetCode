@@ -105,4 +105,6 @@ LeetCode
 | 100 |215|[Kth Largest Element in an Array](https://leetcode.com/problemset/all/) | c++| [python](./solution/215KthLargestElementinanArray.py) | binary search | M | 2019/11/20 |
 | 101 |222|[Count Complete TreeNodes](https://leetcode.com/problemset/all/) | c++| [python](./solution/222CountCompleteTreeNodes.py) | tree/dfs | M | 2019/11/21 |
 | 102 |479|[Largest Palindrome Product](https://leetcode.com/problemset/all/) | c++| [python](./solution/479LargestPalindromeProduct.py) |  | H | 2019/11/22 |
-
+| 103 |316|[Remove Duplicate Letters](https://leetcode.com/problemset/all/) | c++| [python](./solution/316RemoveDuplicateLetters.py) | stack | H | 2019/11/23 |
+| 104 |186|[Reverse Words in a String II](https://leetcode.com/problemset/all/) | c++| [python](./solution/186ReverseWordsinaStringII.py) | string | M | 2019/11/24 |
+| 105 |181|[Employees Earning More Than Their Managers](https://leetcode.com/problemset/all/) | c++| [sql](./solution/181EmployeesEarningMoreThanTheirManagers.sql) | sql | E | 2019/11/25 |
