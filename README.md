@@ -108,3 +108,7 @@ LeetCode
 | 103 |316|[Remove Duplicate Letters](https://leetcode.com/problemset/all/) | c++| [python](./solution/316RemoveDuplicateLetters.py) | stack | H | 2019/11/23 |
 | 104 |186|[Reverse Words in a String II](https://leetcode.com/problemset/all/) | c++| [python](./solution/186ReverseWordsinaStringII.py) | string | M | 2019/11/24 |
 | 105 |181|[Employees Earning More Than Their Managers](https://leetcode.com/problemset/all/) | c++| [sql](./solution/181EmployeesEarningMoreThanTheirManagers.sql) | sql | E | 2019/11/25 |
+| 106 |60|[Permutation Sequence](https://leetcode.com/problemset/all/) | c++| [python](./solution/60PermutationSequence.py) | dfs+剪枝 | M | 2019/11/26 |
+| 107 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problemset/all/) | c++| [python](./solution/80RemoveDuplicatesfromSortedArrayII.py) | two pointers | M | 2019/11/27 |
+| 107 |186|[Reverse Words in a String II](https://leetcode.com/problemset/all/) | c++| [python](./solution/186ReverseWordsinaStringII.py) | string | M | 2019/11/28 |
+
