@@ -110,5 +110,6 @@ LeetCode
 | 105 |181|[Employees Earning More Than Their Managers](https://leetcode.com/problemset/all/) | c++| [sql](./solution/181EmployeesEarningMoreThanTheirManagers.sql) | sql | E | 2019/11/25 |
 | 106 |60|[Permutation Sequence](https://leetcode.com/problemset/all/) | c++| [python](./solution/60PermutationSequence.py) | dfs+剪枝 | M | 2019/11/26 |
 | 107 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problemset/all/) | c++| [python](./solution/80RemoveDuplicatesfromSortedArrayII.py) | two pointers | M | 2019/11/27 |
-| 107 |186|[Reverse Words in a String II](https://leetcode.com/problemset/all/) | c++| [python](./solution/186ReverseWordsinaStringII.py) | string | M | 2019/11/28 |
+| 108 |945|[Minimum Increment to Make Array Unique](https://leetcode.com/problemset/all/) | c++| [python](./solution/945MinimumIncrementtoMakeArrayUnique.py) | array | M | 2019/11/28 |
+| 109 |470|[Implement Rand10() Using Rand7()](https://leetcode.com/problemset/all/) | c++| [python](./solution/470ImplementRand10()UsingRand7().py) | math | M | 2019/11/28 |
 
