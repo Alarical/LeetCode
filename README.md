@@ -84,7 +84,7 @@ LeetCode
 | 79 |221|[Maximal Square](https://leetcode.com/problemset/all/) | [c++](./solution/221MaximalSquare.cpp) | python | dp | M | 2019/10/31 |
 | 80 |84|[Largest Rectangle in Histogram](https://leetcode.com/problemset/all/) | c++| [python](./solution/84LargestRectangleinHistogram.py) | stack | H | 2019/11/01 |
 | 81 |115|[Distinct Subsequences](https://leetcode.com/problemset/all/) | c++| [python](./solution/115DistinctSubsequences.py) | 双序列dp | H | 2019/11/02 |
-| 82 |206|[Reverse LinkedList](https://leetcode.com/problemset/all/) | c++| [python](./solution/206ReverseLinkedList.py) | inklist | E | 2019/11/03 |
+| 82 |206|[Reverse LinkedList](https://leetcode.com/problemset/all/) | c++| [python](./solution/206ReverseLinkedList.py) | linklist | E | 2019/11/03 |
 | 83 |322|[Coin Change](https://leetcode.com/problemset/all/) | c++| [python](./solution/322CoinChange.py) | dp | M | 2019/11/04 |
 | 84 |1248|[Count Number of Nice Subarrays](https://leetcode.com/problemset/all/) | c++| [python](./solution/1248CountNumberofNiceSubarrays.py) | array | M | 2019/11/05 |
 | 85 |131|[Palindrome Partitioning](https://leetcode.com/problemset/all/) | c++| [python](./solution/131PalindromePartitioning.py) | dfs+backtrack | M | 2019/11/06 |
@@ -112,4 +112,6 @@ LeetCode
 | 107 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problemset/all/) | c++| [python](./solution/80RemoveDuplicatesfromSortedArrayII.py) | two pointers | M | 2019/11/27 |
 | 108 |945|[Minimum Increment to Make Array Unique](https://leetcode.com/problemset/all/) | c++| [python](./solution/945MinimumIncrementtoMakeArrayUnique.py) | array | M | 2019/11/28 |
 | 109 |470|[Implement Rand10() Using Rand7()](https://leetcode.com/problemset/all/) | c++| [python](./solution/470ImplementRand10()UsingRand7().py) | math | M | 2019/11/28 |
+| 110 |41|[First Missing Positive](https://leetcode.com/problemset/all/) | c++| [python](./solution/41FirstMissingPositive.py) | array index | H | 2019/11/29 |
+| 111 |86|[Partition List](https://leetcode.com/problemset/all/) | c++| [python](./solution/86PartitionList.py) | linklist | M | 2019/11/30 |
 
