@@ -114,4 +114,8 @@ LeetCode
 | 109 |470|[Implement Rand10() Using Rand7()](https://leetcode.com/problemset/all/) | c++| [python](./solution/470ImplementRand10()UsingRand7().py) | math | M | 2019/11/28 |
 | 110 |41|[First Missing Positive](https://leetcode.com/problemset/all/) | c++| [python](./solution/41FirstMissingPositive.py) | array index | H | 2019/11/29 |
 | 111 |86|[Partition List](https://leetcode.com/problemset/all/) | c++| [python](./solution/86PartitionList.py) | linklist | M | 2019/11/30 |
+| 112 |161|[One Edit Distance](https://leetcode.com/problemset/all/) | c++| [python](./solution/161OneEditDistance.py) | string | M | 2019/12/01|
+| 113 |89|[Gray Code](https://leetcode.com/problemset/all/) | c++| [python](./solution/89GrayCode.py) | bit | M | 2019/12/01 |
+| 114 |134|[Gas Station](https://leetcode.com/problemset/all/) | c++| [python](./solution/134GasStation.py) | array | M | 2019/12/02 |
+| 115 |165|[Compare Version Numbers](https://leetcode.com/problemset/all/) | c++| [python](./solution/165CompareVersionNumbers.py) | array | M | 2019/12/03 |
 
