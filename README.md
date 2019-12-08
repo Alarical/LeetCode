@@ -118,4 +118,10 @@ LeetCode
 | 113 |89|[Gray Code](https://leetcode.com/problemset/all/) | c++| [python](./solution/89GrayCode.py) | bit | M | 2019/12/01 |
 | 114 |134|[Gas Station](https://leetcode.com/problemset/all/) | c++| [python](./solution/134GasStation.py) | array | M | 2019/12/02 |
 | 115 |165|[Compare Version Numbers](https://leetcode.com/problemset/all/) | c++| [python](./solution/165CompareVersionNumbers.py) | array | M | 2019/12/03 |
+| 116 |176|[Second Highest Salary](https://leetcode.com/problemset/all/) | c++| [sql](./solution/176SecondHighestSalary.sql) | sql | E | 2019/12/04 |
+| 117 |179|[Largest Number](https://leetcode.com/problemset/all/) | c++| [python](./solution/179LargestNumber.py) | sort | M | 2019/12/05 |
+| 118 |126|[Word Ladder II](https://leetcode.com/problemset/all/) | c++| [python](./solution/126WordLadderII.py) | bfs | H | 2019/12/06 |
+| 119 |127|[Word Ladder](https://leetcode.com/problemset/all/) | c++| [python](./solution/127WordLadder.py) | bfs | M | 2019/12/07 |
+| 120 |258|[Add Digits](https://leetcode.com/problemset/all/) | c++| [python](./solution/258AddDigits.py) | math | E | 2019/12/08 |
+| 121 |2|[Add Two Numbers](https://leetcode.com/problemset/all/) | c++| [python](./solution/2AddTwoNumbers.py) | linklist | M | 2019/12/08 |
 
