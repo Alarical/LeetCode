@@ -124,4 +124,8 @@ LeetCode
 | 119 |127|[Word Ladder](https://leetcode.com/problemset/all/) | c++| [python](./solution/127WordLadder.py) | bfs | M | 2019/12/07 |
 | 120 |258|[Add Digits](https://leetcode.com/problemset/all/) | c++| [python](./solution/258AddDigits.py) | math | E | 2019/12/08 |
 | 121 |2|[Add Two Numbers](https://leetcode.com/problemset/all/) | c++| [python](./solution/2AddTwoNumbers.py) | linklist | M | 2019/12/08 |
+| 122 |231|[Power of Two](https://leetcode.com/problemset/all/) | c++| [python](./solution/231PowerofTwo.py) | math | E | 2019/12/09 |
+| 123 |445|[Add Two Numbers II](https://leetcode.com/problemset/all/) | c++| [python](./solution/445AddTwoNumbersII.py) | linklist+stack | M | 2019/12/10 |
+| 124 |11|[Container With Most Water](https://leetcode.com/problemset/all/) | c++| [python](./solution/11ContainerWithMostWater.py) | two pointers | M | 2019/12/10 |
+| 125 |755|[Pour Water](https://leetcode.com/problemset/all/) | c++| [python](./solution/755PourWater.py) | array | M | 2019/12/11 |
 
