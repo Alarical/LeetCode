@@ -128,4 +128,7 @@ LeetCode
 | 123 |445|[Add Two Numbers II](https://leetcode.com/problemset/all/) | c++| [python](./solution/445AddTwoNumbersII.py) | linklist+stack | M | 2019/12/10 |
 | 124 |11|[Container With Most Water](https://leetcode.com/problemset/all/) | c++| [python](./solution/11ContainerWithMostWater.py) | two pointers | M | 2019/12/10 |
 | 125 |755|[Pour Water](https://leetcode.com/problemset/all/) | c++| [python](./solution/755PourWater.py) | array | M | 2019/12/11 |
+| 126 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problemset/all/) | c++| [python](./solution/116PopulatingNextRightPointersinEachNode.py) | bfs/递归 | M | 2019/12/12 |
+| 127 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problemset/all/) | c++| [python](./solution/117PopulatingNextRightPointersinEachNodeII.py) | bfs | M | 2019/12/12 |
+| 128 |199|[Binary Tree Right Side View](https://leetcode.com/problemset/all/) | c++| [python](./solution/199BinaryTreeRightSideView.py) | bfs/dfs | M | 2019/12/12 |
 
