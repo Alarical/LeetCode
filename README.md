@@ -131,4 +131,6 @@ LeetCode
 | 126 |116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problemset/all/) | c++| [python](./solution/116PopulatingNextRightPointersinEachNode.py) | bfs/递归 | M | 2019/12/12 |
 | 127 |117|[Populating Next Right Pointers in Each Node II](https://leetcode.com/problemset/all/) | c++| [python](./solution/117PopulatingNextRightPointersinEachNodeII.py) | bfs | M | 2019/12/12 |
 | 128 |199|[Binary Tree Right Side View](https://leetcode.com/problemset/all/) | c++| [python](./solution/199BinaryTreeRightSideView.py) | bfs/dfs | M | 2019/12/12 |
-
+| 129 |238|[Product of Array Except Self](https://leetcode.com/problemset/all/) | c++| [python](./solution/238ProductofArrayExceptSelf.py) | array/math | M | 2019/12/13 |
+| 130 |261|[Graph Valid Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/261GraphValidTree.py) | dfs/bfs/union find | M | 2019/12/14 |
+| 131 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problemset/all/) | c++| [python](./solution/323NumberofConnectedComponentsinanUndirectedGraph.py) | dfs/bfs/union find | M | 2019/12/15 |
