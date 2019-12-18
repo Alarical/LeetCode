@@ -134,3 +134,8 @@ LeetCode
 | 129 |238|[Product of Array Except Self](https://leetcode.com/problemset/all/) | c++| [python](./solution/238ProductofArrayExceptSelf.py) | array/math | M | 2019/12/13 |
 | 130 |261|[Graph Valid Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/261GraphValidTree.py) | dfs/bfs/union find | M | 2019/12/14 |
 | 131 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problemset/all/) | c++| [python](./solution/323NumberofConnectedComponentsinanUndirectedGraph.py) | dfs/bfs/union find | M | 2019/12/15 |
+| 132 |112|[Path Sum](https://leetcode.com/problemset/all/) | c++| [python](./solution/112PathSum.py) | dfs | E | 2019/12/16 |
+| 133 |113|[Path Sum II](https://leetcode.com/problemset/all/) | c++| [python](./solution/113PathSumII.py) | dfs | M | 2019/12/17 |
+| 134 |437|[Path Sum III](https://leetcode.com/problemset/all/) | c++| [python](./solution/437PathSumIII.py) | dfs | M | 2019/12/18 |
+| 135 |257|[Binary Tree Paths](https://leetcode.com/problemset/all/) | c++| [python](./solution/257BinaryTreePaths.py) | dfs | E | 2019/12/18 |
+
