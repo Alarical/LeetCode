@@ -138,4 +138,8 @@ LeetCode
 | 133 |113|[Path Sum II](https://leetcode.com/problemset/all/) | c++| [python](./solution/113PathSumII.py) | dfs | M | 2019/12/17 |
 | 134 |437|[Path Sum III](https://leetcode.com/problemset/all/) | c++| [python](./solution/437PathSumIII.py) | dfs | M | 2019/12/18 |
 | 135 |257|[Binary Tree Paths](https://leetcode.com/problemset/all/) | c++| [python](./solution/257BinaryTreePaths.py) | dfs | E | 2019/12/18 |
+| 136 |988|[Smallest String Starting From Leaf](https://leetcode.com/problemset/all/) | c++| [python](./solution/988SmallestStringStartingFromLeaf.py) | dfs | M | 2019/12/19 |
+| 137 |20|[Valid Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/20ValidParentheses.py) | stack | E | 2019/12/20 |
+| 138 |32|[Longest Valid Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/32LongestValidParentheses.py) | stack | H | 2019/12/21 |
+| 139 |22|[Generate Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/22GenerateParentheses.py) | dfs+backtrack | M | 2019/12/22 |
 
