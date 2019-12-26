@@ -142,4 +142,8 @@ LeetCode
 | 137 |20|[Valid Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/20ValidParentheses.py) | stack | E | 2019/12/20 |
 | 138 |32|[Longest Valid Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/32LongestValidParentheses.py) | stack | H | 2019/12/21 |
 | 139 |22|[Generate Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/22GenerateParentheses.py) | dfs+backtrack | M | 2019/12/22 |
+| 140 |241|[Different Ways to Add Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/241DifferentWaystoAddParentheses.py) | dfs+divide and conquer | M | 2019/12/23 |
+| 141 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problemset/all/) | c++| [python](./solution/124BinaryTreeMaximumPathSum.py) | dfs | H | 2019/12/24 |
+| 142 |217|[217ContainsDuplicate](https://leetcode.com/problemset/all/) | c++| [python](./solution/217ContainsDuplicate.py) | set | E | 2019/12/25 |
+| 143 |219|[Contains Duplicate II](https://leetcode.com/problemset/all/) | c++| [python](./solution/219ContainsDuplicateII.py) | hashmap | M | 2019/12/26 |
 
