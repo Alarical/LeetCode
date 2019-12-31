@@ -144,6 +144,10 @@ LeetCode
 | 139 |22|[Generate Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/22GenerateParentheses.py) | dfs+backtrack | M | 2019/12/22 |
 | 140 |241|[Different Ways to Add Parentheses](https://leetcode.com/problemset/all/) | c++| [python](./solution/241DifferentWaystoAddParentheses.py) | dfs+divide and conquer | M | 2019/12/23 |
 | 141 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problemset/all/) | c++| [python](./solution/124BinaryTreeMaximumPathSum.py) | dfs | H | 2019/12/24 |
-| 142 |217|[217ContainsDuplicate](https://leetcode.com/problemset/all/) | c++| [python](./solution/217ContainsDuplicate.py) | set | E | 2019/12/25 |
-| 143 |219|[Contains Duplicate II](https://leetcode.com/problemset/all/) | c++| [python](./solution/219ContainsDuplicateII.py) | hashmap | M | 2019/12/26 |
+| 142 |217|[ContainsDuplicate](https://leetcode.com/problemset/all/) | c++| [python](./solution/217ContainsDuplicate.py) | set | E | 2019/12/25 |
+| 143 |219|[Contains Duplicate II](https://leetcode.com/problemset/all/) | c++| [python](./solution/219ContainsDuplicateII.py) | hashmap | E | 2019/12/26 |
+| 144 |220|[Contains Duplicate III](https://leetcode.com/problemset/all/) | c++| [python](./solution/220ContainsDuplicateIII.py) | hashmap | M | 2019/12/27 |
+| 145 |203|[Remove LinkedList Elements](https://leetcode.com/problemset/all/) | c++| [python](./solution/203RemoveLinkedListElements.py) | linklist | E | 2019/12/28 |
+| 146 |205|[Isomorphic String](https://leetcode.com/problemset/all/) | c++| [python](./solution/205IsomorphicString.py) | hashmap | E | 2019/12/29 |
+| 147 |290|[Word Pattern](https://leetcode.com/problemset/all/) | c++| [python](./solution/290WordPattern.py) | hashmap | E | 2019/12/30 |
 
