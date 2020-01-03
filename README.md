@@ -150,4 +150,7 @@ LeetCode
 | 145 |203|[Remove LinkedList Elements](https://leetcode.com/problemset/all/) | c++| [python](./solution/203RemoveLinkedListElements.py) | linklist | E | 2019/12/28 |
 | 146 |205|[Isomorphic String](https://leetcode.com/problemset/all/) | c++| [python](./solution/205IsomorphicString.py) | hashmap | E | 2019/12/29 |
 | 147 |290|[Word Pattern](https://leetcode.com/problemset/all/) | c++| [python](./solution/290WordPattern.py) | hashmap | E | 2019/12/30 |
+| 148 |292|[Nim Game](https://leetcode.com/problemset/all/) | c++| [python](./solution/292NimGame.py) | math | E | 2019/12/31 |
+| 149 |299|[Bulls and Cows](https://leetcode.com/problemset/all/) | c++| [python](./solution/299BullsandCows.py) | math | E | 2020/01/01 |
+| 150 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/144BinaryTreePreorderTraversal.py) | dfs/stack | M | 2020/01/02 |
 
