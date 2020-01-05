@@ -153,4 +153,6 @@ LeetCode
 | 148 |292|[Nim Game](https://leetcode.com/problemset/all/) | c++| [python](./solution/292NimGame.py) | math | E | 2019/12/31 |
 | 149 |299|[Bulls and Cows](https://leetcode.com/problemset/all/) | c++| [python](./solution/299BullsandCows.py) | math | E | 2020/01/01 |
 | 150 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/144BinaryTreePreorderTraversal.py) | dfs/stack | M | 2020/01/02 |
-
+| 151 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/145BinaryTreePostorderTraversal.py) | dfs/stack | M | 2020/01/03 |
+| 152 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/94BinaryTreeInorderTraversal.py) | dfs/stack | H | 2020/01/04 |
+| 153 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/590N-aryTreePostorderTraversal.py) | dfs/stack | E | 2020/01/05 |

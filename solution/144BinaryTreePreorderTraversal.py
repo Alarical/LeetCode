@@ -16,4 +16,17 @@ class Solution:
             dfs(root.right)
         dfs(root)
         return res
-        
+
+
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
+        stack = []
+        res = []
+        while root or stack:
+            while root:
+                res.append(root.val)
+                stack.append(root)
+                root = root.left
+            if stack:
+                root = stack.pop().right
+        return res
