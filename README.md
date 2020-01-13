@@ -156,3 +156,11 @@ LeetCode
 | 151 |145|[Binary Tree Postorder Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/145BinaryTreePostorderTraversal.py) | dfs/stack | M | 2020/01/03 |
 | 152 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/94BinaryTreeInorderTraversal.py) | dfs/stack | H | 2020/01/04 |
 | 153 |590|[N-ary Tree Postorder Traversal](https://leetcode.com/problemset/all/) | c++| [python](./solution/590N-aryTreePostorderTraversal.py) | dfs/stack | E | 2020/01/05 |
+| 154 |173|[Binary Search Tree Iterator](https://leetcode.com/problemset/all/) | c++| [python](./solution/173BinarySearchTreeIterator.py) | tree/stack | M | 2020/01/06 |
+| 155 |235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/235LowestCommonAncestorofaBinarySearchTree.py) | tree | E | 2020/01/07 |
+| 156 |237|[Delete Node in a LinkedList](https://leetcode.com/problemset/all/) | c++| [python](./solution/237DeleteNodeinaLinkedList.py) | linkedlist | E | 2020/01/08 |
+| 157 |468|[Validate IP Address](https://leetcode.com/problemset/all/) | c++| [python](./solution/468ValidateIPAddress.py) | string | M | 2020/01/09 |
+| 158 |230|[Kth Smallest Element in a BST](https://leetcode.com/problemset/all/) | c++| [python](./solution/230KthSmallestElementinaBST.py) | tree/binary search | M | 2020/01/10 |
+| 159 |270|[Closest Binary Search Tree Value](https://leetcode.com/problemset/all/) | c++| [python](./solution/270ClosestBinarySearchTreeValue.py) | tree/binary search | E | 2020/01/11 |
+| 160 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problemset/all/) | c++| [python](./solution/1317ConvertIntegertotheSumofTwoNo-ZeroIntegers.py) | math | E | 2020/01/12 |
+
