@@ -163,4 +163,6 @@ LeetCode
 | 158 |230|[Kth Smallest Element in a BST](https://leetcode.com/problemset/all/) | c++| [python](./solution/230KthSmallestElementinaBST.py) | tree/binary search | M | 2020/01/10 |
 | 159 |270|[Closest Binary Search Tree Value](https://leetcode.com/problemset/all/) | c++| [python](./solution/270ClosestBinarySearchTreeValue.py) | tree/binary search | E | 2020/01/11 |
 | 160 |1317|[Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problemset/all/) | c++| [python](./solution/1317ConvertIntegertotheSumofTwoNo-ZeroIntegers.py) | math | E | 2020/01/12 |
+| 161 |1318|[Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problemset/all/) | c++| [python](./solution/1318MinimumFlipstoMakeaORbEqualtoc.py) | math/bit | E | 2020/01/12 |
+| 162 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problemset/all/) | c++| [python](./solution/1319NumberofOperationstoMakeNetworkConnected.py) | dfs/union find | M | 2020/01/12 |
 
