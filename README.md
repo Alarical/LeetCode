@@ -168,4 +168,5 @@ LeetCode
 | 163 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/236LowestCommonAncestorofaBinaryTree.py) | dfs | M | 2020/01/14 |
 | 164 |250|[Count Univalue Subtrees](https://leetcode.com/problemset/all/) | c++| [python](./solution/250CountUnivalueSubtrees.py) | dfs | M | 2020/01/15 |
 | 165 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problemset/all/) | c++| [python](./solution/304RangeSumQuery2D-Immutable.py) | dp | M | 2020/01/16 |
+| 166 |255|[Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/255VerifyPreorderSequenceinBinarySearchTree.py) | stack/tree | M | 2020/01/19 |
 
