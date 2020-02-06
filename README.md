@@ -169,4 +169,10 @@ LeetCode
 | 164 |250|[Count Univalue Subtrees](https://leetcode.com/problemset/all/) | c++| [python](./solution/250CountUnivalueSubtrees.py) | dfs | M | 2020/01/15 |
 | 165 |304|[Range Sum Query 2D - Immutable](https://leetcode.com/problemset/all/) | c++| [python](./solution/304RangeSumQuery2D-Immutable.py) | dp | M | 2020/01/16 |
 | 166 |255|[Verify Preorder Sequence in Binary Search Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/255VerifyPreorderSequenceinBinarySearchTree.py) | stack/tree | M | 2020/01/19 |
+| 167 |658|[Find K Closest Elements](https://leetcode.com/problemset/all/) | c++| [python](./solution/658FindKClosestElements.py) | binary search | M | 2020/01/20 |
+| 168 |1332|[Remove Palindromic Subsequences](https://leetcode.com/problemset/all/) | c++| [python](./solution/1332RemovePalindromicSubsequences.py) | string | E | 2020/01/26 |
+| 169 |1333|[Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode.com/problemset/all/) | c++| [python](./solution/1333FilterRestaurantsbyVegan-Friendly,PriceandDistance.py) | math | M | 2020/01/27 |
+| 170 |1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problemset/all/) | c++| [python](./solution/1335MinimumDifficultyofaJobSchedule.py) | dp | H | 2020/02/04 |
+| 171 |272|[Closest Binary Search Tree Value II](https://leetcode.com/problemset/all/) | c++| [python](./solution/272ClosestBinarySearchTreeValueII.py) | tree/inorder | H | 2020/02/05 |
+| 172 |285|[Inorder Successor in BST](https://leetcode.com/problemset/all/) | c++| [python](./solution/285InorderSuccessorinBST.py) | tree | M | 2020/02/06 |
 
