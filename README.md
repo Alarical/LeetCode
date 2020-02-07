@@ -175,4 +175,7 @@ LeetCode
 | 170 |1335|[Minimum Difficulty of a Job Schedule](https://leetcode.com/problemset/all/) | c++| [python](./solution/1335MinimumDifficultyofaJobSchedule.py) | dp | H | 2020/02/04 |
 | 171 |272|[Closest Binary Search Tree Value II](https://leetcode.com/problemset/all/) | c++| [python](./solution/272ClosestBinarySearchTreeValueII.py) | tree/inorder | H | 2020/02/05 |
 | 172 |285|[Inorder Successor in BST](https://leetcode.com/problemset/all/) | c++| [python](./solution/285InorderSuccessorinBST.py) | tree | M | 2020/02/06 |
+| 173 |298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problemset/all/) | c++| [python](./solution/298BinaryTreeLongestConsecutiveSequence.py) | tree/dfs | M | 2020/02/07 |
+| 174 |366|[Find Leave sof Binary Tree](https://leetcode.com/problemset/all/) | c++| [python](./solution/366FindLeavesofBinaryTree.py) | tree/dfs | M | 2020/02/07 |
+| 175 |404|[Sum of Left Leaves](https://leetcode.com/problemset/all/) | c++| [python](./solution/404SumofLeftLeaves.py) | tree/dfs | E | 2020/02/07 |
 
